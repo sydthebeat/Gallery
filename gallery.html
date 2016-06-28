@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" 
+				aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		      	</button>
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Images</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sign up</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>
+		</div>	
+</nav>
+
+<div class="container">
+		<div class="jumbotron" >
+			<h1><i class="fa fa-camera-retro" aria-hidden="true"></i> The Image Gallery</h1>
+			<p>A collection of beautiful images</p>
+		</div>
+
+		<div class="firstrow" >
+
+			
+				<div class="col-lg-4 col-sm-6 post">
+					<div class="cardCont">
+						<div class="cardBack"  style="background-image:url('images/house.jpeg');"></div>
+						<div class="cardFront"  style="background-image:url('images/bridge.jpg');"></div>
+					</div>
+				</div>
+			
+
+				<div class="col-lg-4 col-sm-6 post">
+					<div class="cardCont">
+						<div class="cardBack" style="background-image:url('images/swing.jpeg');"></div>
+						<div class="cardFront" style="background-image:url('images/waterfall.jpeg');"></div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-sm-6 post">
+					<div class="cardCont">
+						<div class="cardBack" style="background-image:url('images/starlight.jpeg');"></div>
+						<div class="cardFront" style="background-image:url('images/coast.jpeg');"></div>
+					</div>
+				</div>
+		</div>
+
+		 <br></br>
+			
+		<div class="otherrow">
+				<div class="col-lg-4 col-sm-6 post">
+					<div class="cardCont">
+						<div class="cardBack" style="background-image:url('images/clouds.jpeg');"></div>
+						<div class="cardFront" style="background-image:url('images/tunnel.jpeg');"></div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-sm-6 post">
+					<div class="cardCont">
+						<div class="cardBack" style="background-image:url('images/desert.jpeg');"></div>
+						<div class="cardFront" style="background-image:url('images/surf.jpeg');"></div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-sm-6 post">
+					<div class="cardCont">
+						<div class="cardBack" style="background-image:url('images/lake.jpeg');"></div>
+						<div class="cardFront" style="background-image:url('images/balloon.jpeg');"></div>
+					</div>
+				</div>
+
+		</div>	
+       
+       <br></br>
+        
+		<div class="otherrow">
+			<div class="col-lg-4 col-sm-6 post">
+				<div class="cardCont">
+					<div class="cardBack" style="background-image:url('images/path.jpeg');"></div>
+					<div class="cardFront" style="background-image:url('images/cave.jpeg');"></div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6 post">
+				<div class="cardCont">
+					<div class="cardBack" style="background-image:url('images/edge.jpeg');"></div>
+					<div class="cardFront" style="background-image:url('images/light.jpeg');"></div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6 post">
+				<div class="cardCont">
+					<div class="cardBack" style="background-image:url('images/building.jpeg');"></div>
+					<div class="cardFront" style="background-image:url('images/tent.jpeg');"></div>
+				</div>
+			</div>
+
+		</div>		
+			
+</div>
+	
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
+	<script src="gallery.js"></script>
+
+
+</body>
+</html>

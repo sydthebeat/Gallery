@@ -1,0 +1,57 @@
+body {
+	padding-top: 70px;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+	
+}
+
+.navbar {
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.otherrow {
+    margin-top:220px;
+}
+
+
+
+
+/*.cardCont
+{
+  width:250px;
+  height:400px;
+  float:left;
+  margin-right:10px;
+  position:relative;
+  border:solid 2px #fff;
+}*/
+
+
+
+.cardFront, .cardBack {
+  position:absolute;
+  width:350px;
+  height:228px;
+  /*background-image:url("images/bridge.jpg");*/
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  border:solid 1px #d0e5f4;
+}
+.cardBack {
+ /* background-image:url("images/beach.jpeg");*/
+}
+
+.
